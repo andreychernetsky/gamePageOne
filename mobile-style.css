@@ -1,0 +1,177 @@
+/* ЭКРАНЫ ТЕЛЕФОНОВ */
+
+@media screen and (max-width: 760px) {
+
+	html {
+		font-size: 100%;
+	}
+	/*социальные иконки*/
+
+	.icon-bar {
+		display:none;
+		top:auto;
+		bottom:10px;
+		left: 10px;
+	}
+	.icon-bar {
+		display:block;
+	}
+	.icon-bar button {
+		display: block;
+	}
+	.icon-bar .social {
+		display: none;
+	}
+	.icon-bar a {
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		font-size: 1.65rem;
+		color: #fff;
+		opacity: .7;
+		transition: all .5s ease;
+		margin-bottom: 15px; }
+
+	.main-header {
+		margin-top: 0;
+		height: 85px;
+		z-index: 20;
+	}
+
+
+	.blockquote-one__text {
+		font-size:1rem;
+		margin-top: 5%;
+		text-align: center;
+
+	}
+
+	.wrap-block {
+	}
+
+	.img__title {
+		font-size: 1.5rem;
+	}
+
+
+
+
+	.main-header__line {
+		display: none;
+	}
+
+	.main-header {
+		position: fixed;
+		height: 50px;
+		padding: 0 15px;
+		justify-content: space-between;
+	}
+
+	.nav-menu {
+		padding-top: 15px;
+	}
+
+	.main-menu {
+		z-index: 10;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		list-style-type: none;
+		background-color: rgba(0, 0, 0, 0.9);
+		position: fixed;
+		width: 100%;
+		top: 50px;
+		right: -100%;
+		transition: all 0.3s ease;
+		font-weight: bolder;
+		overflow-y: auto;
+	}
+
+	.main-menu__item {
+		width: 100%;
+		height:auto;
+		letter-spacing: 1.5px;
+		border: none;
+	}
+	.main-menu__item:hover {
+		border: none;
+	}
+	.main-menu__item:first-child {
+		border: none;
+	}
+
+	.main-menu__link:first-child {
+		color: #fff;
+		border: none;
+	}
+
+	.main-menu__link {
+		font-size: 1.5rem;
+		text-decoration: none;
+		color: #f8f8f8;
+		padding-top: 70px;
+		text-transform: uppercase;
+	}
+
+	.main-menu__link:hover {
+		color: rgb(88, 201, 58);
+	}
+
+	.menu-burger {
+		height: 30px;
+		margin: 0 10px;
+		width: 93%;
+	}
+
+	header h1 {
+		font-size: 4rem;
+	}
+
+	.main-menu__item:last-child {
+		border: none;
+		padding: 10px 0;
+
+	}
+
+	#menu:checked ~ .main-header__background {
+		opacity: 1;
+		border: none;
+	}
+
+	.burger {
+		display: block;
+		width: 20px;
+		height: 16px;
+		background-image: url(images/burger.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		z-index: 2;
+	}
+
+	#menu:checked ~ .main-menu {
+		right: 0;
+		opacity: 1;
+		z-index: 1;
+		border: none;
+	}
+
+	#menu:checked ~ .burger {
+		background-image: url(images/close.png);
+		background-size: contain;
+		border: none;
+	}
+
+	.page {
+		width: 100%;
+		margin: 0;
+	}
+
+	.main-footer {
+		height: 100px;
+	}
+
+}
+@media screen and (max-width: 680px){
+
+	}
+}
