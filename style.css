@@ -234,6 +234,22 @@ html {
 	outline: none;
 	background-color: #00b600;
 }
+/*описание слайдера*/
+.slider {
+	margin: 0 auto;
+	max-width: 600px;
+	max-height: 335px;
+	margin-bottom: 10%;
+}
+.slider__item {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 70%;
+	background-position: center center;
+	background: no-repeat;
+	background-size: cover;
+	color: #fff;
+}
 
 
 .page {
@@ -244,7 +260,7 @@ html {
 }
 
 .img {
-	max-width:100%;
+	max-width:60%;
 	margin: 0 auto;
 }
 

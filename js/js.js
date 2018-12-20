@@ -1,6 +1,6 @@
-/*$(document).ready(function(){
+$(document).ready(function(){
   $(".owl-carousel").owlCarousel({
-    items:3,
+    items:1,
     loop:true,
     autoplay:true,
     autoplayTimeout:3000,
@@ -14,7 +14,7 @@
     $(target).toggleClass("nav__list--open")
   });
 
-});*/
+});
 
 
 
