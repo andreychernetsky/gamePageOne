@@ -17,6 +17,7 @@ html {
 	font-size: 1.3rem;
 	line-height: 1.375rem;
 	max-width: 1680px;
+	
 }
 
 
@@ -138,8 +139,8 @@ html {
 
 /*оформление цитаты*/
 .blockquote-one {
-	z-index: 50;
-	margin: 1%;
+	/*z-index: 50;*/
+	margin: 40px;	
 	background: #FFF4E0;
 	color: #474C4F;
 	padding: 30px;
@@ -147,6 +148,7 @@ html {
 	text-align: center;
 	text-transform: uppercase;
 	font-family: 'Lato', sans-serif;
+	
 }
 
 .blockquote-one:before {
@@ -251,11 +253,16 @@ html {
 	color: #fff;
 }
 
+.main {
+	margin:0 auto;
+	width: 100%;
+	top: 40px;
 
+}
 .page {
-	display: flex;
+	/*display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
+	flex-wrap: wrap;*/
 	width: 100%;
 }
 

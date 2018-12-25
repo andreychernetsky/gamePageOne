@@ -38,7 +38,9 @@
 		z-index: 20;
 	}
 
+.main {
 
+}
 	.blockquote-one__text {
 		font-size:1rem;
 		margin-top: 5%;
@@ -47,6 +49,9 @@
 	}
 
 	.wrap-block {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
 	}
 
 	.img__title {
